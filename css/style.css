@@ -1,0 +1,341 @@
+#main-nav {
+	font-family: 'Montserrat', sans-serif;
+	transition: all 1s;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav-right-side {
+	justify-content: flex-end;
+	font-weight: 600;
+}
+
+#main-nav a.nav-brand-custom {
+	font-size: 2em;
+	font-family: 'Droid Serif Italic';
+	font-style: italic;
+}
+
+#main-nav a {
+	color: white;
+}
+
+#main-nav div a:hover {
+	color: #0ed8d6;
+}
+
+#main-header {
+	background-image: url(../img/header/pictures_on_the_wall.jpg);
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.scrolled {
+	background-color: rgb(14, 216, 214, 0.6);
+	color: white;
+}
+
+.scrolled #right-side-nav-color a:hover {
+	color: black;
+}
+
+.header-container {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	background-color: rgb(0, 0, 0, 0.6);
+	width: 100%;
+}
+
+.header-container h2,
+.header-container h1 {
+	width: 100%;
+	color: white;
+	padding: 20px;
+}
+
+.header-container h2 {
+	font-family: 'Droid Serif Italic';
+	font-style: italic;
+	font-size: 2.5rem;
+}
+
+.header-container h1 {
+	font-weight: 600;
+	font-size: 3rem;
+}
+
+.btn-custom {
+	background-color: #0ed8d6;
+	color: white;
+	font-weight: 600;
+}
+
+.btn-custom:hover {
+	box-shadow: 0px 3px #0a9a98;
+	background-color: white;
+	color: #0ed8d6;
+}
+
+.second-header h2 {
+	margin-top: 130px;
+	font-weight: 800;
+}
+
+.second-header {
+	margin-bottom: 50px;
+}
+
+.services p,
+section p {
+	font-family: 'Droid Serif Italic';
+	font-style: italic;
+	color: grey;
+}
+
+.services a i:hover {
+	transform: rotate(360deg);
+	color: #0ed8d6;
+	background-color: white;
+}
+
+.services a i {
+	/* powtorzenie patrz linia 105 */
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #0ed8d6;
+	margin: 10px auto 20px;
+	transition: 1s ease;
+	font-size: 50px;
+	line-height: 100px;
+	color: white;
+}
+
+.services h3 {
+	font-size: 1.3rem;
+	font-weight: 600;
+	padding: 10px;
+}
+
+.services {
+	margin-bottom: 100px;
+}
+
+#portfolio {
+	background-color: #f7f7f7;
+	padding-bottom: 100px;
+}
+
+#portfolio h2 {
+	padding-top: 100px;
+}
+
+#portfolio .overflow-div {
+	height: 300px;
+	overflow: hidden;
+}
+
+#portfolio .portfolio-img-cont {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	transition: 0.6s ease;
+}
+
+#portfolio .portfolio-img-cont:hover {
+	transform: scale(1.5);
+}
+
+#portfolio .portfolio-img-cont .inner-portfolio {
+	height: 100%;
+	background-color: rgb(14, 216, 214, 0.6);
+	opacity: 0;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	transition: 0.6s ease;
+}
+
+#portfolio .portfolio-img-cont .inner-portfolio:hover {
+	opacity: 1;
+}
+
+.img1 {
+	background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+.img2 {
+	background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+.img3 {
+	background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+.img4 {
+	background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+.img5 {
+	background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+.img6 {
+	background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+.portfolio-row {
+	margin-bottom: 20px;
+}
+
+.portfolio-caption {
+	background-color: #fff;
+	padding: 20px 10px;
+}
+
+.portfolio-caption h4 {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+#team img {
+	height: 250px;
+}
+
+#team h4 {
+	font-size: 1.3rem;
+	font-weight: 600;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+.social-media {
+	justify-content: center;
+}
+
+.social-media a {
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	color: #fff;
+	border-radius: 50%;
+	line-height: 40px;
+	font-size: 20px;
+	margin: 0px 10px;
+}
+
+.social-media a:hover {
+	background-color: #0ed8d6;
+}
+
+#team .team-desc {
+	margin: 30px 0px 100px;
+}
+
+#team .teammember {
+	margin-bottom: 30px;
+}
+
+#contact {
+	background-image: url(../img/footer/world-map.jpg);
+}
+
+#contact form input,
+#contact form textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 5px;
+	border: none;
+}
+
+#contact form textarea {
+	height: 170px;
+}
+
+#contact .second-header {
+	padding-top: 40px;
+	color: white;
+}
+
+#contact .second-header p {
+	color: white;
+}
+
+#contact form input[type="submit"] {
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #0ed8d6;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+	height: 60px;
+	padding: 5px;
+}
+
+#contact .second-header h2 {
+	margin-top: 80px;
+}
+
+#contact .mask {
+	background-color: rgb(0, 0, 0, 0.6);
+}
+
+.sub-button {
+	display: flex;
+	justify-content: center;
+}
+
+#contact form input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: black;
+	color: #0ed8d6;
+	box-shadow: 0px 3px #fff;
+}
+
+#contact form {
+	padding-bottom: 100px;
+}
+
+footer {
+	height: 100px;
+	align-items: center;
+}
+
+footer p {
+	line-height: 40px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.footernav ul li a {
+	color: black;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 10px;
+}
+
+.footernav ul li a:hover {
+	color: #0ed8d6;
+}
+
+.footernav ul li {
+	list-style: none;
+}
+
+.footernav ul {
+	justify-content: flex-end;
+	margin: 0;
+}
